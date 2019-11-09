@@ -1,3 +1,0 @@
-/Users/abaz/Desktop/CurrentClasses/csci360/Projects/Project_2/code/task2/CMakeFiles/rebuild_cache.dir
-/Users/abaz/Desktop/CurrentClasses/csci360/Projects/Project_2/code/task2/CMakeFiles/edit_cache.dir
-/Users/abaz/Desktop/CurrentClasses/csci360/Projects/Project_2/code/task2/CMakeFiles/task2.dir
