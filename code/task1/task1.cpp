@@ -79,7 +79,6 @@ int main(int argc, char *argv[]) {
     }
 
     // print paths
-    // test new
     cout << "Paths:" << endl;
     int sum = 0;
     for (int i = 0; i < ins.num_of_agents; i++) {
