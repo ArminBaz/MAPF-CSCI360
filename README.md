@@ -1,4 +1,17 @@
 # Multi Agent Path Finding
+### Overview
+This is a project that I had to do for my csci-360 class Introduction to Artificial Intelligence.
+
+This project uses time-space A* to implement two different solvers: Prioritized Planning and ConflictBased Search (CBS).
+
+<br/>
+
+Just as a *note* when attempting to find the paths using the Prioritized Planner, sometimes an optimal path may not be found. This is because the goal state of a higher priority agent may block a lower priority agent from reaching it's own goal state. 
+
+**Example:**
+
+
+<br/><br/>
 
 ### Preparation:
 Before running the code please make sure that you have *Python 3* with **matplotlib** as well as **numpy** packages installed.
