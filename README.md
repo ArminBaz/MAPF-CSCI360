@@ -50,3 +50,5 @@ python3 ../visualize.py exp0.txt exp0_paths.txt
 <br/>
 
 And **thats it**, you should be able to compile and run the programs, as well as use the visualization tool. :neckbeard:
+
+If you would like to continue reading, I will go into more detail about the A* search algorithm as well as both the Conflict Based Search and Prioritized Planning algorithms.
