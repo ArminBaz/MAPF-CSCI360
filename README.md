@@ -10,10 +10,13 @@ To compile the code first navigate into either the PrioritizedPlanner or Conflic
 cmake .
 make
 ```
+<br/>
+
 To execute the code after making the executable
 ```linux
 PrioritizedPlanner exp0.txt exp0_paths.txt
 ```
+
 Here, file exp0.txt is the input file that contains the information of the map and the
 start and goal locations of the agents. File exp0 paths.txt is the output file that
 contains the paths.
