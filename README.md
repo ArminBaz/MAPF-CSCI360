@@ -8,7 +8,13 @@ This project uses time-space A* to implement two different solvers: Prioritized 
 Just as a *note* when attempting to find the paths using the Prioritized Planner, sometimes an optimal path may not be found. This is because the goal state of a higher priority agent may block a lower priority agent from reaching it's own goal state. 
 
 **Example:**
+@ @ @ @ @ @ @ @ @ @ @<br/>
+@ A0 A1 . . . G1 G0 @ <br/>
+@ @ @ @ @ . @ @ @ @ @<br/>
+@ @ @ @ @ @ @ @ @ @ @<br/>
 
+
+As you can see if Agent A1 has the highest priority it will prevent agent A0 from ever reaching its goal state. However if A0 is the higher prioity agent it will force A1 to move out of the way into the little divit in the middle as the lower priority agent, A1, cannot be on a collision path with the higher priority agent, A0.
 
 <br/><br/>
 
