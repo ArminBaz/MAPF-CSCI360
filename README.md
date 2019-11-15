@@ -16,7 +16,7 @@ Just as a *note* when attempting to find the paths using the Prioritized Planner
 
 As you can see if Agent A1 has the highest priority it will prevent agent A0 from ever reaching its goal state. However if A0 is the higher prioity agent it will force A1 to move out of the way into the little divit in the middle as the lower priority agent, A1, cannot be on a collision path with the higher priority agent, A0.
 
-<br/><br/>
+<br/>
 
 ### Preparation:
 Before running the code please make sure that you have *Python 3* with **matplotlib** as well as **numpy** packages installed.
