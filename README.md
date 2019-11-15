@@ -7,7 +7,7 @@ This project uses time-space A* to implement two different solvers: Prioritized 
 
 Just as a *note* when attempting to find the paths using the Prioritized Planner, sometimes an optimal path may not be found. This is because the goal state of a higher priority agent may block a lower priority agent from reaching it's own goal state. 
 
-**Example:**
+**Example:** <br/>
 @ @ @ @ @ @ @ @ @ @ @<br/>
 @ A0 A1 . . . G1 G0 @ <br/>
 @ @ @ @ @ . @ @ @ @ @<br/>
