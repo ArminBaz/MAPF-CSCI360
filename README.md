@@ -21,6 +21,8 @@ start and goal locations of the agents. File exp0 paths.txt is the output file t
 contains the paths.
 
 *Note*: You can change the input file name to any valid input file and the output file can be whatever you desire as long as it ends in .txt
+
+
 For example, if I wanted ro run it with one of the paths in the test directory:
 ```linux
 ConflictBasedSearch ../test/test_1.txt test_1_CBS_paths.txt
