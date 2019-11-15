@@ -1,9 +1,6 @@
 # Multi Agent Path Finding
-### Using Prioritized Planning and Conflict Based Search
-
-
-
-
+one/
+two/
 
 #### Preparation:
 Before running the code please make sure that you have *Python 3* with **matplotlib** as well as **numpy** packages installed.
