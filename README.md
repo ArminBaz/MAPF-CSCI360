@@ -1,7 +1,6 @@
 # Multi Agent Path Finding
 ### Overview
 This is a project that I had to do for my csci-360 class Introduction to Artificial Intelligence.
-
 This project uses time-space A* to implement two different solvers: Prioritized Planning and ConflictBased Search (CBS).
 
 <br/>
@@ -38,7 +37,6 @@ start and goal locations of the agents. File exp0 paths.txt is the output file t
 contains the paths.
 
 <br/>
-
 *Note*: You can change the input file name to any valid input file and the output file 
 can be whatever you desire as long as it ends in .txt.
 
