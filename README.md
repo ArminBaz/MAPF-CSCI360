@@ -8,14 +8,14 @@ Before running the code please make sure that you have *Python 3* with **matplot
 To compile the code first navigate into either the PrioritizedPlanner or ConflictBasedSearch directories.
 
 
-**To compile**
+**To compile:**
 ```linux
 cmake .
 make
 ```
 <br/>
 
-**To execute the code after making the executable**
+**To execute the code after making the executable:**
 ```linux
 PrioritizedPlanner exp0.txt exp0_paths.txt
 ```
@@ -31,17 +31,17 @@ can be whatever you desire as long as it ends in .txt.
 
 <br/>
 
-**To run code with a path in a different directory its the same process**
+**To run code with a path in a different directory its the same process:**
 ```linux
 ConflictBasedSearch ../test/test_1.txt test_1_CBS_paths.txt
 ```
 
 <br/>
 
-To use the python visualizer make sure that you pass in the paths for the same map.
-<br/>
 
-**To run the python visualizer**
+To use the python visualizer make sure that you pass in the paths for the same map.
+
+**To run the python visualizer:**
 ```linux
 python3 ../visualize.py exp0.txt exp0_paths.txt
 ```
