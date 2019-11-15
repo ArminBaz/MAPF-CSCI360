@@ -49,14 +49,11 @@ int main(int argc, char *argv[]) {
                 // if we are at the last location
                 if(j == paths[agent].size()-1){
                     constraints.push_back(make_tuple(next_agent, paths[agent][j], -1, -j));
-                    //cout << "Negative Constraint: " << paths[agent][j] << " At time: " << j << endl;
                 }
                 else{
                     constraints.push_back(make_tuple(next_agent, paths[agent][j], -1, j));  // vertex constraint for next agent
-                    //cout << "Vertex Constraint: " << paths[agent][j] << " At time: " << j << endl;
                     constraints.push_back(make_tuple(next_agent, paths[agent][j+1], paths[agent][j], j+1));   // edge constraint for next agent
                 }
-                //cout << "Constraint Made for agent: " << k << " At timestep: " << j << endl;
             }
         }
         if(paths[agent].empty()){
