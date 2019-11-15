@@ -7,5 +7,9 @@ Before running the code please make sure that you have Python 3 with matplotli a
 
 #### Compiling the code:
 To compile the code use
+'''' bash
+cmake .
+make
+''''
 cmake .
 make
