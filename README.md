@@ -10,7 +10,7 @@ Just as a *note* when attempting to find the paths using the Prioritized Planner
 **Example:** <br/>
 @ @ @ @ @ @ @ @ @ @ @<br/>
 @ A0 A1 . . .  . . . . . G1 G0 @ <br/>
-@ @ @ @ @ .  . . @ @ @ @ @<br/>
+@ @ @ @ @ .  . @ @ @ @ @<br/>
 @ @ @ @ @ @ @ @ @ @ @<br/>
 
 
