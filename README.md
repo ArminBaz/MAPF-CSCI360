@@ -37,7 +37,7 @@ make
 
 **To execute the code after making the executable:**
 ```linux
-PrioritizedPlanner exp0.txt exp0_paths.txt
+./PrioritizedPlanner exp0.txt exp0_paths.txt
 ```
 
 Here, file exp0.txt is the input file that contains the information of the map and the
@@ -52,7 +52,7 @@ can be whatever you desire as long as it ends in .txt.
 
 **To run code with a path in a different directory its the same process:**
 ```linux
-ConflictBasedSearch ../test/test_1.txt test_1_CBS_paths.txt
+./ConflictBasedSearch ../test/test_1.txt test_1_CBS_paths.txt
 ```
 
 <br/>
