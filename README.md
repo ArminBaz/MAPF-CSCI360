@@ -36,6 +36,8 @@ ConflictBasedSearch ../test/test_1.txt test_1_CBS_paths.txt
 <br/>
 
 To use the python visualizer make sure that you pass in the paths for the same map
+
+
 **To run the python visualizer**
 ```linux
 python3 ../visualize.py exp0.txt exp0_paths.txt
