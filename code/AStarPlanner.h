@@ -1,7 +1,7 @@
 #pragma once
 #include "MAPFInstance.h"
 #include <ostream>
-#include <tuple> // task1: including tuple to get the size of the consraints
+#include <tuple>
 #include <iostream>
 #include <string>
 
@@ -35,11 +35,11 @@ struct AStarNode {
     int location;
     int g;
     int h;
-    int timestep; // task1: add timestep variable to the AStarNode struct
+    int timestep;
     AStarNode* parent;
 
     AStarNode(): location(-1), g(-1), h(-1),  timestep(-1), parent(nullptr) {}
-    AStarNode(int location, int g, int h, int timestep, AStarNode* parent):         // task1: add timestep variable to constructors
+    AStarNode(int location, int g, int h, int timestep, AStarNode* parent):
             location(location), g(g), h(h), timestep(timestep), parent(parent) {}
 };
 

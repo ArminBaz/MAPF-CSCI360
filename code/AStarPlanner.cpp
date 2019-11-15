@@ -1,7 +1,7 @@
 #include "AStarPlanner.h"
 #include <queue>
 #include <unordered_map>
-#include <algorithm> // reverse
+#include <algorithm>
 #include <iostream>
 #include <string>
 

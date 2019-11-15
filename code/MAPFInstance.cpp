@@ -58,6 +58,7 @@ void MAPFInstance::print_instance() const {
     }
 }
 
+// the manhattan distance is our heuristic function for the A* search algorithm
 int MAPFInstance::get_Manhattan_distance(int from, int to) const {
     int from_x = row_coordinate(from);
     int from_y = col_coordinate(from);
@@ -66,6 +67,7 @@ int MAPFInstance::get_Manhattan_distance(int from, int to) const {
     return abs(from_x - to_x) + abs(from_y - to_y);
 }
 
+// function that gets all the available locations for the current agent
 list<int> MAPFInstance::get_adjacent_locations(int location) const {
 	list<int> locations;
 	for (int direction : moves_offset) {

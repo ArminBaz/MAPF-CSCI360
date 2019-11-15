@@ -5,6 +5,9 @@
 # import matplotlib
 # matplotlib.use('TkAgg')
 
+# This is a program to visualize the paths that the different planners create, this has nothing to do
+# with the actual path finding. It is simply a handy tool to make sure everything is working.
+
 from matplotlib.patches import Circle, Rectangle
 import matplotlib.pyplot as plt
 import numpy as np
