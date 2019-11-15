@@ -46,4 +46,7 @@ To use the python visualizer make sure that you pass in the paths for the same m
 python3 ../visualize.py exp0.txt exp0_paths.txt
 ```
 
+
 <br/>
+
+And **thats it**, you should be able to compile and run the programs, as well as use the visualization tool. :neckbeard:
