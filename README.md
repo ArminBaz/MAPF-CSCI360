@@ -5,7 +5,7 @@ Before running the code please make sure that you have *Python 3* with **matplot
 <br/><br/>
 
 ### Compiling the code:
-To compile the code first navigate into either the PrioritizedPlanner or ConflictBasedSearch directories
+To compile the code first navigate into either the PrioritizedPlanner or ConflictBasedSearch directories.
 
 
 **To compile**
@@ -26,7 +26,8 @@ contains the paths.
 
 <br/>
 
-*Note*: You can change the input file name to any valid input file and the output file can be whatever you desire as long as it ends in .txt
+*Note*: You can change the input file name to any valid input file and the output file 
+can be whatever you desire as long as it ends in .txt.
 
 <br/>
 
@@ -37,8 +38,8 @@ ConflictBasedSearch ../test/test_1.txt test_1_CBS_paths.txt
 
 <br/>
 
-To use the python visualizer make sure that you pass in the paths for the same map
-
+To use the python visualizer make sure that you pass in the paths for the same map.
+<br/>
 
 **To run the python visualizer**
 ```linux
