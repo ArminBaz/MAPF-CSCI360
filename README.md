@@ -4,7 +4,7 @@
 Before running the code please make sure that you have *Python 3* with **matplotlib** as well as **numpy** packages installed.
 <br/><br/>
 
-### Compiling the code:
+### Compiling and Running the Code:
 To compile the code first navigate into either the PrioritizedPlanner or ConflictBasedSearch directories.
 
 
