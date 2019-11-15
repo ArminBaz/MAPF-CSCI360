@@ -6,7 +6,7 @@
 
 
 #### Preparation:
-Before running the code please make sure that you have Python 3 with matplotli as well as numpy packages installed.
+Before running the code please make sure that you have *Python 3* with **matplotlib** as well as **numpy** packages installed.
 
 #### Compiling the code:
 To compile the code use
