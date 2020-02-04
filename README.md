@@ -76,4 +76,5 @@ If you would like to continue reading, I will go into more detail about the A* s
 <br/><br/>
 ## A* Search
 
-test
+A* is an informed variation of Dijkstra. And it can be considered a 'best first search' as it greedily chooses which vertex to explore next based off the value function: f(v) = h(v) + g(v)
+
