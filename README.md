@@ -74,7 +74,7 @@ If you would like to continue reading, I will go into more detail about the A* s
 
 <br/><br/>
 ## Important Note
-If you plan on cloning the repo then you have to remove the files that cmake generates otherwise **you will get an error**. In both the /PrioritizedPlanner and /ConflictBasedSearch directories remove all files that aren't: (.cpp or .h ; CMakeLists.txt)
+If you plan on cloning the repo then you have to remove the files that cmake generates otherwise **you will get an error**. In both the /PrioritizedPlanner and /ConflictBasedSearch directories remove **all** files that aren't: (.cpp or .h ; CMakeLists.txt)
 
 <br/>
 
