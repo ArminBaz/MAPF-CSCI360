@@ -72,6 +72,11 @@ And **thats it**, you should be able to compile and run the programs, as well as
 
 If you would like to continue reading, I will go into more detail about the A* search algorithm as well as both the Conflict Based Search and Prioritized Planning algorithms.
 
+<br/><br/>
+## Important Note
+If you plan on cloning the repo then you have to remove the files that cmake generates otherwise **you will get an error**. In both the /PrioritizedPlanner and /ConflictBasedSearch directories remove all files that aren't: (.cpp or .h ; CMakeLists.txt)
+<br/>
+The exp_..txt files are test cases and you don't need to keep them. There are more test cases in the /test directory.
 
 <br/><br/>
 ## A* Search
